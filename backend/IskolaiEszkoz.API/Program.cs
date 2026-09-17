@@ -20,4 +20,5 @@ var app = builder.Build();
 app.UseCors("Frontend");
 app.MapControllers();
 
-app.Run();
+app.Run("http://localhost:5242");
+ 
